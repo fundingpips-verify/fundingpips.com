@@ -17,7 +17,7 @@
     border-radius: 15px;
     padding: 30px 10px 30px 10px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -54,6 +54,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: block;
     margin-top: 10px;
+    font-size: 12px;
 }
 
 .copy{
@@ -72,7 +73,7 @@
 #share{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* font-weight: bold; */
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;    
     margin-bottom: 15px;
 }
@@ -81,7 +82,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* width: 5vw; */
     color: rgb(64, 114, 160);
-    font-size: 18px;
+    font-size: 15px;
     /* font-weight: bold; */
     /* display: block; */
     margin-bottom: 15px;
@@ -91,9 +92,9 @@
 
 #copy{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 50px;
-    font-size: 25px;
-    padding: 1px 10px 1px 10px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
     color: rgb(52, 52, 212);
     display:block;
     margin: auto;
@@ -110,7 +111,7 @@
 
 #ghes{
     float: left;
-    width: 30px;
+    width: 25px;
     margin-top: 3px;
     /* background-color: rgb(55, 253, 6); */
 }
@@ -123,24 +124,21 @@
 }
 
 .down{
-    width: 200px;
-    height: 50px;
+    /* width: 200px; */
+    /* height: 50px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    font-size: 15px;
-    padding: 8px 20px 8px 20px;
+    font-size: 16px;
+    padding: 8px 20px 8px 15px;
     border-radius: 10px;
-    background-color: rgb(65, 148, 225);
+    background-color: royalblue;
     border: 0px solid;
 }
 
-.down:hover{
-    background-color: royalblue;
-}
 
 .down:active{
-    background-color: royalblue;
-    border: 2px solid rgb(60, 60, 128);
+    background-color: rgb(88, 121, 219);
+    /* border: 2px solid rgb(60, 60, 128); */
 }
 
 #dess{
@@ -197,7 +195,7 @@
 }
 
 #rule{
-    padding: 10px 7px 10px 7px;
+    padding: 10px 7px 10px 8px;
     outline: 15px;
     margin-right: 5px;
     /* margin-left: -10px; */
@@ -214,7 +212,7 @@
 .buts{
     display: flex;
     justify-content: center;
-    /* width: 85vw; */
+    /* width: 80vw; */
 }
 
 .get:hover{
@@ -222,22 +220,24 @@
 }
 
 .lastbut{
-    width: 200px;
-    height: 50px;
+    /* width: 200px; */
+    /* height: 50px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    font-size: 20px;
-    padding: 8px 20px 8px 20px;
+    font-size: 18px;
+    /* padding: 8px 20px 8px 20px; */
     border-radius: 10px;
-    background-color: rgb(65, 148, 225);
+    background-color: royalblue;
     border: 0px solid;
+    text-decoration: none;
 }
 
 .lastbut:hover{
-    background-color: royalblue;
+    background-color: rgb(88, 121, 219);
 }
 
 .lastbut:active{
-    background-color: royalblue;
-    border: 2px solid rgb(60, 60, 128);
+    background-color: rgb(88, 121, 219);
+    /* border: 2px solid rgb(60, 60, 128); */
 }
+
